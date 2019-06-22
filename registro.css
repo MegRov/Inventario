@@ -1,0 +1,59 @@
+body{
+
+    background: url("https://www.lavanguardia.com/r/GODO/LV/p5/WebSite/2018/03/21/Recortada/img_mrubal_20180321-190754_imagenes_lv_otras_fuentes_istock-623121996-k9lF-U441786349313iI-992x558@LaVanguardia-Web.jpg")no-repeat center center fixed;
+    background-size:cover; 
+}
+.container{
+    font-family:  verdana;
+      text-decoration-color: #ffffff;  margin: auto;
+      width: 50%;
+      max-width: 40%;
+      background: rgb(19, 18, 18);
+      padding: 10px;
+       border-radius:30px;
+       opacity: 0.8;
+       -moz-opacity:0.8;
+       filter:alpha(opacity=80);
+       -khtml-opacity:0.8;
+      border: 1px solid rgba(0.0.0.0,2)
+}
+
+input,button{
+    display:block;
+    padding: 10px;
+    width: 100%;
+    margin: 30px 0;
+    max-width: 1200px;
+    font-size: 20px;
+     border-radius:20px;
+    }
+    h3{
+        color: antiquewhite;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+    input:hover{
+        background-color: darkgreen;
+        color:#ffffff;
+        cursor:pointer;
+    }
+
+    button:hover{
+        border-radius: 20px;
+        background-color: darkgreen;
+        color:#ffffff;
+        cursor:pointer;
+    }
+    
+    .footer{
+        background-color:forestgreen; 
+      padding: 10px;
+       border-radius:30px;
+       opacity: 0.8;
+       -moz-opacity:0.8;
+       filter:alpha(opacity=80);
+       -khtml-opacity:0.8;
+      border: 1px solid rgba(0.0.0.0,2)
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }

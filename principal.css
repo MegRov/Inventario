@@ -1,0 +1,109 @@
+
+            body {
+                background: url("https://cdn.pixabay.com/photo/2019/06/14/23/05/black-forest-4274490_960_720.jpg")no-repeat center center fixed;
+                background-size: cover;
+                display: flex;  /*La declaración display: flex; define un “contenedor flexible” y convierte de forma automática a sus «hijos» directos en «elementos flexibles».*/
+                flex-wrap: wrap;/*alineación de elementos en el contenedor*/
+                justify-content: center;/* justificación del contendor*/
+            }
+
+            body > * {
+                width: 100%;
+                border: 1px solid #000;
+                /*border-bottom-width: 0;*/
+                /*box-sizing: border-box;*/
+                text-align: center;
+                list-style:none;
+            }
+
+        
+            .body{
+                float: flex;
+                border-radius: 20px;
+                background: #ffffff;
+                padding: 10px;
+                 border-radius:30px;
+                 opacity: 0.8;
+                 -moz-opacity:0.8;
+                 filter:alpha(opacity=80);
+                 -khtml-opacity:0.8;
+                 width: 100%;
+                 height:100%;
+                 max-width: 1200px;
+                
+            }
+
+            .container {
+                font-family:  verdana;
+                text-decoration-color: #ffffff;  margin: auto;
+                width: 50%;
+                max-width: 40%;
+                background: rgb(19, 18, 18);
+                padding: 10px;
+                 border-radius:30px;
+                 opacity: 0.8;
+                 -moz-opacity:0.8;
+                 filter:alpha(opacity=80);
+                 -khtml-opacity:0.8;
+                border:4px solid;
+            }
+
+            @media screen and (max-width:800px){
+             
+                header nav{
+                width:100%;
+                height:100%;
+                margin:0;
+                position:fixed;
+            }
+        }
+        h3>a{
+            font-family: 'Times New Roman', Times, serif;
+                list-style:none;
+                text-decoration:none;
+                background: #ddd;
+                color:black;
+                display:block;
+                border-radius: 30px;
+                
+            }
+            
+    
+            h3>a:hover{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                list-style:none;
+                text-decoration:none;
+                color: maroon;
+                display:block;
+                border-radius: 20px;
+                cursor:pointer;
+                transition: all .3s;
+            }
+           
+            li>ul>li{
+                
+                /*visibility: hidden;*/
+               list-style: none;
+               font-family: 'Times New Roman', Times, serif;
+               border-radius: 30px;
+               color:black;
+               text-decoration: none;
+      
+              } 
+    
+            li>ul>li:hover {
+                visibility: visible;
+                color: #ddd;
+                background: #ffffff;
+                border-radius: 30px;
+                text-decoration: none;
+            }
+    
+    
+           
+    
+            h2{
+                color: darkgreen;
+                text-decoration: none;
+    
+            }
