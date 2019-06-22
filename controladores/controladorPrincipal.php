@@ -110,14 +110,6 @@ class controladorPrincipal {
                     break;
 
 
-
-
-
-
-
-
-
-
                 //*******************TABLA SALIDA********************************* */ //
                 case "mostrarInsertarSalida":
             case "listarSalida":
