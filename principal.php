@@ -6,14 +6,12 @@ session_start();
 //include_once PATH . 'controladores/ManejoSesiones/BloqueDeSeguridad.php';
 //$seguridad = new BloqueDeSeguridad();
 //$seguridad->seguridad("login.php");
-
 if (isset($_SESSION['mensaje'])) {
     $mensaje = $_SESSION['mensaje'];
     echo "<script languaje='javascript'>alert('$mensaje')</script>";
     unset($_SESSION['mensaje']);
 }
 ?>
-
 <!DOCTYPE html>
 <html>
     <head>
